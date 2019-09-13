@@ -1,0 +1,37 @@
+.cell {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  margin: 1px;
+}
+
+.character {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.extra {
+  display: flex;
+  align-items: center;
+}
+
+.restart {
+  margin-right: 10px;
+}
+
+.userInput {
+  width: 40px;
+  height: 20px;
+  margin-left: 2px;
+  margin-right: 8px;
+}
